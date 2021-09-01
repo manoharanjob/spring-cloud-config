@@ -1,16 +1,8 @@
-spring
-  datasource
-    url: jdbc:postgresql://localhost:5432/PwCCloud
-    password: admin
-    driver-class-name: org.postgresql.Driver
-    username: postgres
-  jpa
-    generate-ddl: true
-    hibernate.ddl-auto: update
-    show-sql: true
-    properties
-      hibernate
-        format_sql: true
-
-metadata
-  starting.version: 1
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/PwCCloud
+        password: admin
+        driver-class-name: org.postgresql.Driver
+        username: postgres
+metadata:
+    version: 1
