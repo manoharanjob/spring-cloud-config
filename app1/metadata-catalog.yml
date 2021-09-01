@@ -1,6 +1,6 @@
 spring:
     datasource:
-        url: jdbc:postgresql://localhost:5432/PwCCloud
+        url: jdbc
         password: admin
 metadata:
-    starting.version: 1
+    version: 1
